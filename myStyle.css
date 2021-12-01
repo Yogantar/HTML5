@@ -1,0 +1,16 @@
+
+/*This is an External Stylesheet*/
+
+body{
+    background-color: lightblue;
+    font-size: larger;
+    font-family:cursive ;
+}
+
+h1{
+    color: darkblue;
+}
+
+p{
+    color: darkgoldenrod;
+}

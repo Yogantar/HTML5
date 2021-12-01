@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+    <h1>Student Information</h1>
+
+    <table border="1">
+        <tr bgcolor="aqua">
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Contact No.</th>
+        </tr>
+        <tr>
+            <td>1001</td>
+            <td>James Gosling</td>
+            <td>Computer Science</td>
+            <td>7783093473</td>
+        </tr>
+
+        <tr>
+            <td>1002</td>
+            <td>James Arthur</td>
+            <td>Electronics</td>
+            <td>7873093473</td>
+        </tr>
+
+        <tr>
+            <td>1003</td>
+            <td>Tom Hanks</td>
+            <td>Mechanical</td>
+            <td>9983093473</td>
+        </tr>
+
+        <tr>
+            <td>1004</td>
+            <td>Phyllip Hughs</td>
+            <td>Electronics</td>
+            <td>8883093473</td>
+        </tr>
+    </table>
+
+    <!-- Rowspan & Colspan demo = merging of rows or columns-->
+    <h1> Employee Information</h1>
+
+    <table border="2" cellpadding="10" cellspacing="5">
+        <tr bgcolor="yellow">
+            <th>Employee Id</th>
+            <th>Employee Name</th>
+            <th colspan="2">Technologies</th>
+        </tr>
+
+        <tr>
+            <td>99901</td>
+            <td>Jhonson</td>
+            <td align="center" colspan="2">Spring Framework</td>
+        </tr>
+
+        <tr>
+            <td>99902</td>
+            <td>Mary</td>
+            <td align="center" colspan="2">Angular</td>
+        </tr>
+
+        <tr>
+            <td>99791</td>
+            <td>David</td>
+            <td align="center">Angular</td>
+            <td align="center">Nodejs</td>
+        </tr>
+
+        <tr>
+            <td>99904</td>
+            <td>Arun</td>
+            <td align="center" colspan="2">HTML5</td>
+        </tr>
+
+        <tr>
+            <td>95611</td>
+            <td>Naveen</td>
+            <td align="center">Hibernate</td>
+            <td align="center">JDBC</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">44901</td>
+            <td rowspan="2">Alex</td>
+            <td align="center" colspan="2">JavaScript</td>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="2">jQuery</td>
+        </tr>
+    </table>
+    <p>****Thankyou****</p>
+</body>
+</html>

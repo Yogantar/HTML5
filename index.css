@@ -1,0 +1,279 @@
+/* 
+The box-sizing property defines how the width and height of an element are calculated: 
+should they include padding and borders, or not.
+ */
+
+*{
+    box-sizing:border-box;
+
+}
+
+/* The flex property sets the flexible length on flexible items. */
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+#header{
+    /* display: flex; */
+    background-color: rgb(235, 168, 26);
+    box-shadow: gray 4px 3px 8px;
+    width: 1520px;
+    /* text-align: center; */
+    /* text-shadow: rgb(236, 223, 223) 4px 3px 8px; */
+
+}
+
+#logo{
+    
+    /* flex: 1;  */
+    height: fit-content;
+    width: 20px;
+    
+    
+} 
+
+#brand h1{
+
+    /* flex: 5; */
+    text-transform: uppercase;
+    font-family:monospace;
+    font-size: 50px;
+    letter-spacing: 10px;    
+    text-shadow: 2px 2px 10px rgb(0, 102, 255);    
+    color:rgb(245, 244, 244);
+    text-align: left;
+    margin-left: 400px;
+}
+ 
+
+#main{
+    display: flex;
+    height: 860px;
+}
+
+#nav{
+    flex: 1;
+    background-color: rgba(25, 96, 250, 0.952);
+    color: white;
+    /* Distance between top of the first line to the top of 2nd line */
+    line-height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #48C9B0;
+    }
+    
+    li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+    /* Change the link color on hover */
+    li a:hover {
+    background-color: #ecb846;
+    color: white;
+    }
+
+#article{
+    flex: 3;
+    background-image: url("/images/pb.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* opacity: 0.5; */
+}
+
+#aside{
+    flex: 2;
+    background-color: cornflowerblue;
+    text-align: center;
+
+}
+
+#aside form{background-color: #04AA6D;border-radius: 25px;}
+h3{ background-color: aquamarine; color:blue}
+
+/* form css*/
+form {border: 3px solid #f1f1f1;}
+
+
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+
+
+button {
+background-color:forestgreen;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: auto;
+}
+
+
+
+button:hover {
+opacity: 0.8;
+}
+
+
+
+.cancelbtn {
+width: auto;
+padding: 14px 20px;
+background-color: #f44336;
+}
+
+
+
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+}
+
+
+
+img.avatar {
+width: 30%;
+border-radius: 50%;
+}
+
+
+
+.container {
+padding: 16px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+
+
+span.psw {
+float: right;
+padding-top: 30px;
+}
+
+#footer{
+    background-color: rgb(37, 36, 36);
+    height: 150px;
+    margin-bottom: 15px;
+    /* width: 100%; */
+    color: blanchedalmond;
+    text-align: center;
+}
+
+/* social networking styles*/
+.fa {
+    padding: 13px;
+    font-size: 10px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    }
+    
+    
+    
+    .fa:hover {
+    opacity: 0.7;
+    }
+    
+    
+    
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+    
+    
+    
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+    
+    
+    
+    .fa-google {
+    background: #dd4b39;
+    color: white;
+    }
+    
+    
+    
+    .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    }
+    
+    
+    
+    .fa-youtube {
+    background: #bb0000;
+    color: white;
+    }
+    
+    
+    
+    .fa-instagram {
+    background: #125688;
+    color: white;
+    }
+
+#header,#footer,#nav,#article,#aside{
+    padding: 15px;
+}
+
+#fig{
+    text-align: center;
+}
+
+img{
+    height: 120px;
+    width: 600px;
+    
+}
+
+.hello{
+    text-align: center;
+    border-radius: 25px;
+    border: 5px solid #73AD21;
+    padding: 5px;
+}
+
+span{
+    color: yellow;
+    font-style: bold;
+}
+
+#para{
+    color: rgb(15, 11, 13); 
+    background-color: rgba(231, 213, 213, 0.473);
+    font-size: 20px;
+}
+
+
